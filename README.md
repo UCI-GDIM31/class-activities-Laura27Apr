@@ -4,7 +4,9 @@
 Hello World!
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+The reason that r, g, b variables floats is that the color section in the Unity is set from 0 to 1.0, therefore the value will be fractional number instead of whole numbers, text or true/false decision;
+The bounce variable should be the whole number because there will not be any bounce times like 0.5. And of course the value of the bounce cannot be the text or true/false decision;
+For the step four, the useful information is that this line need to add the semicolon to make this line completed.
 
 ## Open-Source Assets
 ### W1

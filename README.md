@@ -12,6 +12,8 @@ For the step four, the useful information is that this line need to add the semi
 #10
 We would make the parameter (input) "int" since the choice is based on the player¡¯s current friendship level, which is a whole number value; and the return type (output) would be "boolean" since the requirements of this step is that to make the response "tells you whether or not", which is a true/false judgement.
 
+1. Classes are like the ingredients of a plate to make a cake. and the Component is the cake. We use ingredients (classes) to make and form the cake (Component).
+2. This is because as the ball bounces again and again, the times the ball multiplies the GetColorMultiplier again and again. In this scenario, this value increases exponentially, and the ball's brightness grows ever brighter.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

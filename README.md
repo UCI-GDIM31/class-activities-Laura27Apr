@@ -10,7 +10,7 @@ For the step four, the useful information is that this line need to add the semi
 
 ### W3
 #10
-We would make the parameter (input) int (whole number) since the choice is based on the player¡¯s current friendship level, which is a whole number value; and the return type (output) would be boolean since it mentions that "tells you whether or not", which is a true/false choice.
+We would make the parameter (input) "int" since the choice is based on the player¡¯s current friendship level, which is a whole number value; and the return type (output) would be "boolean" since the requirements of this step is that to make the response "tells you whether or not", which is a true/false judgement.
 
 ## Open-Source Assets
 ### W1

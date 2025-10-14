@@ -1173,7 +1173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BallW3
   ballRenderer: {fileID: 1224553163}
   _rigidbody: {fileID: 1224553162}
-  _speedMultiplier: 1
+  _speedMultiplier: 1.5
   _speedThreshold: 10
 --- !u!58 &1224553161
 CircleCollider2D:
@@ -1286,7 +1286,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 0.9837151, b: 0.6839622, a: 1}
+  m_Color: {r: 0.8537736, g: 0.8102008, b: 0.20538892, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1495,7 +1495,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 0.8584906, b: 0.9670141, a: 1}
+  m_Color: {r: 0.8113208, g: 0.53352094, b: 0.52046996, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1667,7 +1667,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.73622733, g: 0.9008033, b: 0.9575472, a: 1}
+  m_Color: {r: 0.31318974, g: 0.4975633, b: 0.6509434, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2533,7 +2533,7 @@ MonoBehaviour:
   _pointsText: {fileID: 980115520}
   _speechText: {fileID: 1520169577}
   _maxHealth: 5
-  _destroyCatWhenDead: 0
+  _destroyCatWhenDead: 1
 --- !u!1 &1756818710
 GameObject:
   m_ObjectHideFlags: 0

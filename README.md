@@ -21,6 +21,9 @@ In line 5, the code defines the _movespeed and allow it to be view and edit in t
 In line 22, the code uses a function to have a value and save it into the translation;
 In line 25, the code calls the translation method on the translate may to move the transform in the direction and distance of translation.
 
+#10
+1. Since the cat and ball need to collide with each other, both of them need rigidbody. The goal need to let the ball get through, so it will be checked the "IsTrigger".
+2. At first, my cat was "floating" and it just looks like the cat is walking on the space. We first tried to cancel the rigidbody on the cat, then we found that the cat cannot hit the soccerball with it front legs. And we tried to check IsTrigger on the cat, and the cat just walk through the soccerball. Then finally after asking the professor, we found that the problem is that the collider on our cat is to big. Then we make it smaller and it does not float anymore.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

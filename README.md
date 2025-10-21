@@ -19,7 +19,7 @@ We would make the parameter (input) "int" since the choice is based on the playe
 #10
 In line 5, the code defines the _movespeed and allow it to be view and edit in the inspector of the Unity;
 In line 22, the code uses a function to have a value and save it into the translation;
-In line 25, the code calls the translation method on the translate may to moves the transform in the direction and distance of translation.
+In line 25, the code calls the translation method on the translate may to move the transform in the direction and distance of translation.
 
 ## Open-Source Assets
 ### W1

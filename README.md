@@ -14,6 +14,13 @@ We would make the parameter (input) "int" since the choice is based on the playe
 
 1. Classes are like the ingredients of a plate to make a cake. and the Component is the cake. We use ingredients (classes) to make and form the cake (Component).
 2. This is because as the ball bounces again and again, the times the ball multiplies the GetColorMultiplier again and again. In this scenario, this value increases exponentially, and the ball's brightness grows ever brighter.
+
+### W4
+#10
+In line 5, the code defines the _movespeed and allow it to be view and edit in the inspector of the Unity;
+In line 22, the code uses a function to have a value and save it into the translation;
+In line 25, the code calls the translation method on the translate may to moves the transform in the direction and distance of translation.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

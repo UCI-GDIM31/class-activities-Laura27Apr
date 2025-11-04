@@ -6,6 +6,7 @@ public class BatW6 : MonoBehaviour
     [SerializeField] private float _speed;
     [SerializeField] private Transform _playerTransform;
 
+
     public void EnableChase(Transform player)
     {
         enabled = true;

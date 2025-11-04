@@ -32,6 +32,11 @@ A: Of course we can. But this is not that efficient if you are using it for more
 Plan for DeerW5:
 First, build the class for the DeerW5. Then define the variable, and here the variable is _destination. We need to use the Start() method, which is provided by the Unity. And we need to call GetComponent to get the NavMeshAgent on the deer. Then we need to call the SetDestination to give the destination for the deer to move to. This method needs to make the deer automatically walk to the assigned destination, which is the cat here when the game starts.
 
+### W6
+Unity engine (Laura Liu):
+[Terrain Tutorial Vid] (https://youtu.be/DbJB9534PZQ?si=yMfpV3q8F9fUXOc-) (W5 Minigame); Console window = W1, W2; Triggers (IsTrigger) = W4 activity; Rigidbody =  W4 activity; Collider = W4 slides; GameObject Tags = W4 slides; Components; Inspector; Terrain = W5; Transform = W5; SpiriteRenderer = W2
+[Table 10 Google Doc](https://docs.google.com/document/d/1O1Z4J196hUgrUu8E1KjuXLG0qGOnDDlSYW_Ya_sPJhE/edit?tab=t.0)
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

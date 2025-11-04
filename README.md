@@ -38,7 +38,7 @@ Unity engine (Laura Liu):
 [Table 10 Google Doc](https://docs.google.com/document/d/1O1Z4J196hUgrUu8E1KjuXLG0qGOnDDlSYW_Ya_sPJhE/edit?tab=t.0)
 
 Plan for BatW6:
-The member variables this class should contains are _bats, _interactdistance and _player. And we need to use Start()
+The member variables this class should contains are _speed, _flytime, and _time; 
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

@@ -37,6 +37,8 @@ Unity engine (Laura Liu):
 [Terrain Tutorial Vid] (https://youtu.be/DbJB9534PZQ?si=yMfpV3q8F9fUXOc-) (W5 Minigame); Console window = W1, W2; Triggers (IsTrigger) = W4 activity; Rigidbody =  W4 activity; Collider = W4 slides; GameObject Tags = W4 slides; Components; Inspector; Terrain = W5; Transform = W5; SpiriteRenderer = W2
 [Table 10 Google Doc](https://docs.google.com/document/d/1O1Z4J196hUgrUu8E1KjuXLG0qGOnDDlSYW_Ya_sPJhE/edit?tab=t.0)
 
+Plan for BatW6:
+The member variables this class should contains are _bats, _interactdistance and _player. And we need to use Start()
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

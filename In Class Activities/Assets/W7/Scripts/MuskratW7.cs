@@ -73,7 +73,7 @@ public class MuskratW7 : MonoBehaviour
 
         _animator.SetBool("flying", false);
 
-        bool running = Mathf.Abs(leftright) != 0.0f || Mathf.Abs(forward) != 0.0f;
+        bool running = Mathf.Abs(leftright) >= 0.0f || Mathf.Abs(forward) >= 0.0f;
         _animator.SetBool("Running", running);
         // STEP 5 -------------------------------------------------------------
     }
@@ -117,10 +117,10 @@ public class MuskratW7 : MonoBehaviour
         // Use _rigidbody.linearVelocity.
         // You may also find the absolute value method, Mathf.Abs(), helpful:
         //      https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Abs.html
-        bool flying = Mathf.Abs(_rigidbody.linearVelocity.y) >= 0.2f;
+        bool flying = Mathf.Abs(_rigidbody.linearVelocity.y) >= 0.0f;
         _animator.SetBool("flying", flying);
 
-        bool running = _rigidbody.linearVelocity.x != 0.0f;
+        bool running = _rigidbody.linearVelocity.x >= 0.0f;
         _animator.SetBool("running", running);
 
         // STEP 4 -------------------------------------------------------------

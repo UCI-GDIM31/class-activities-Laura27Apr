@@ -39,6 +39,11 @@ Unity engine (Laura Liu):
 
 Plan for BatW6:
 This class should contain the member variables _speed and _transform. The methods we need to use are Start() and Update(). The Start() method makes the bats start chasing the player as soon as the game starts. The Update() method checks the bats' movement to ensure they are moving toward the player.
+
+### W7
+[Table 10 Engineering Plan](https://docs.google.com/document/d/1bQPAv1mL70Yfxq_kHDeEPWBOi8I3CRvs9G-moxCYlJU/edit?tab=t.0)(Roles mentioned in the Google Doc)
+The problem in step 2 is that transform.position indicates the absolute position of an object in the world coordinate system and in this situation the Vector3.forward represents forward direction of the world coordinate system. Therefore, no matter which way the muskrat turns its head, it will continue moving forward in the world forward direction. However, translate.Translate take the diection of the muskrat itself, anin this situation its movement direction follows the muskrat's facing direction. 
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
